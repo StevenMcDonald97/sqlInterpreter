@@ -7,16 +7,16 @@ It has been optimized using JAVA.NIO for reading in data, and uses block nested 
 Project Structure:  
   sqlInterpreter.jar - an executable for running the interpreter  
   input-  
-    config.txt- three line file containing input directory, output directory, and temporary directory locations  
-    queries.sql - the SQL queries to be run  
-    db-  
-      schema.txt - file describing name and field names of each index  
-      index_info.txt- describes what indexes the interpreter should build in the form RELATIONS FIELD CLUSTERED (1) / UNCLUSTERED(0)  
-      indexes-  
-        byte representations of the indexes built  
-      data-  
-        byte representations of the relations the queries are to be run on  
-   output- directory where query results will be stored   
+      config.txt- three line file containing input directory, output directory, and temporary directory locations  
+      queries.sql - the SQL queries to be run  
+      db-  
+         schema.txt - file describing name and field names of each index  
+         index_info.txt- describes what indexes the interpreter should build in the form RELATIONS FIELD CLUSTERED (1) / UNCLUSTERED(0)  
+         indexes-  
+           byte representations of the indexes built  
+         data-  
+           byte representations of the relations the queries are to be run on  
+     output- directory where query results will be stored   
 
 
 
